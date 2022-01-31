@@ -29,7 +29,6 @@ const server = http.createServer((req,res) =>{
         res.write(`<html><body><h1>ERROR: 404 ${fileUrl} is not html file</h1></body></html>`);
         res.end();
     }
-
 });
 
 server.listen(port,hostname, () => {
