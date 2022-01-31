@@ -8,8 +8,5 @@
     "start": "node index"
   },
   "author": "jonnadula chaitanya",
-  "license": "ISC",
-  "dependencies": {
-    "help": "^3.0.2"
-  }
+  "license": "ISC"
 }
