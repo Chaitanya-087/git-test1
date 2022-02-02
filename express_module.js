@@ -18,7 +18,7 @@ app.use((req,res,next)=>{
 
     var filepath = path.resolve('./public' + fileUrl);
 
-    // res.writeHead(200,{'Content-Type':'text/html'});
+    res.writeHead(200,{'Content-Type':'text/html'});
     // res.write('<html><body><p>This is express server</p></body></html>');
     // res.end();
     res.send(filepath)
